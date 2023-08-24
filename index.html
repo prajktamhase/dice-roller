@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Dice Roller</title>
+    <style>
+        .dice{
+            margin-left: 180px;
+            /* margin: 5px; */
+            padding: 10px;
+            background-color: rgb(71, 255, 77);
+            color: black;
+        }
+    </style>
+</head>
+<body>
+    <img src="dice.png" height="400px" id="dice"/><br/><br/><br/><br/>
+<button type="button" onClick="rolldice()" class="dice">GO</button>
+
+
+    <script>
+        const diceimage=document.getElementById("dice");
+        function rolldice(){
+            const min=1;
+            const max=7;
+            const randomNumber=Math.floor(Math.random()*(max-min)+min)
+            switch (randomNumber){
+                case 1:
+                    diceimage.src="d1.png";
+                    console.log(randomNumber)
+                    break;
+
+                    case 2:
+                    diceimage.src="2.png";
+                    console.log(randomNumber)
+                    break;
+
+                    case 3:
+                    diceimage.src="3.png";
+                    console.log(randomNumber)
+                    break;
+
+                    case 4:
+                    diceimage.src="1.png";
+                    console.log(randomNumber)
+                    break;
+
+                    case 5:
+                    diceimage.src="5.png";
+                    console.log(randomNumber)
+                    break;
+
+                    case 6:
+                    diceimage.src="die-face.png";
+                    console.log(randomNumber)
+
+
+                   }
+                   }
+       
+                   </script>
+    
+</body>
+</html>
