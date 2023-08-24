@@ -1,4 +1,4 @@
-<h1>Dice Roller</h1><br/><br/>
+<h1>Dice Roller🎲</h1><br/><br/>
 
 <p>using javascript create to Dice-Roller.</p>
 
